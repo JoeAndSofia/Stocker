@@ -1,0 +1,1 @@
+update sqlite_sequence set seq = 1 where name = 'stock' ; 
