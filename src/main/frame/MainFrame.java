@@ -19,6 +19,10 @@ import javax.swing.border.BevelBorder;
 
 public class MainFrame extends JFrame{
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -9103260290089518747L;
 	public JPanel mainPanel = null;
 	public JPanel controlPanel = null;
 	
@@ -55,7 +59,7 @@ public class MainFrame extends JFrame{
 		this.setDefaultCloseOperation(EXIT_ON_CLOSE);
 		this.setLayout(null);
 		this.setBounds(this.x, this.y, this.w, this.h);
-//		this.setResizable(false);
+		this.setResizable(false);
 		this.setTitle("Stocker");
 		
 		initMenuBar();
